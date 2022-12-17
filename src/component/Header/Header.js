@@ -5,10 +5,10 @@ import CustomLink from '../CustomLink/CustomLink';
 const Header = () => {
     return (
         <div>
-            <h1>Header Header !!</h1>
             <nav>
                 <CustomLink to="/">Home</CustomLink>
                 <CustomLink to="/friends">Friends</CustomLink>
+                <CustomLink to="/posts">Posts</CustomLink>
                 <CustomLink to="/about">About</CustomLink>
             </nav>
         </div>
